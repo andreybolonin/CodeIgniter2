@@ -15,6 +15,8 @@
 
 // ------------------------------------------------------------------------
 
+namespace Codeigniter2\system\database\drivers\mysqli;
+
 /**
  * CUBRID Database Adapter Class
  *
@@ -28,7 +30,7 @@
  * @author		Esen Sagynov
  * @link		http://codeigniter.com/user_guide/database/
  */
-class CI_DB_cubrid_driver extends CI_DB {
+class CI_DB_cubrid_driver extends DB {
 
 	// Default CUBRID Broker port. Will be used unless user
 	// explicitly specifies another one.

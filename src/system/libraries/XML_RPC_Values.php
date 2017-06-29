@@ -1,6 +1,6 @@
 <?php
 
-namespace SMSClubStorage\system\libraries;
+namespace Codeigniter2\system\libraries;
 
 /**
  * XML-RPC Values class

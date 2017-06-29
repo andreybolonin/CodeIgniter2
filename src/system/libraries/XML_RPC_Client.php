@@ -6,7 +6,7 @@
  * Time: 8:33 PM
  */
 
-namespace SMSClubStorage\system\libraries;
+namespace Codeigniter2\system\libraries;
 
 /**
  * XML-RPC Client class

@@ -15,6 +15,10 @@
 
 // --------------------------------------------------------------------
 
+namespace Codeigniter2\system\database\drivers\cubrid;
+
+use Codeigniter2\system\database\DB_result;
+
 /**
  * CUBRID Result Class
  *
@@ -24,7 +28,7 @@
  * @author		Esen Sagynov
  * @link		http://codeigniter.com/user_guide/database/
  */
-class CI_DB_cubrid_result extends CI_DB_result {
+class CI_DB_cubrid_result extends DB_result {
 
 	/**
 	 * Number of rows in the result set

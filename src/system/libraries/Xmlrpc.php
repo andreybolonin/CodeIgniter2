@@ -18,7 +18,7 @@
 //	show_error('Your PHP installation does not support XML');
 //}
 
-namespace SMSClubStorage\system\libraries;
+namespace Codeigniter2\system\libraries;
 
 // ------------------------------------------------------------------------
 

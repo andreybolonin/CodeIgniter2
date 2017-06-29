@@ -15,6 +15,10 @@
 
 // ------------------------------------------------------------------------
 
+namespace Codeigniter2\system\libraries\Cache\drivers;
+
+use Codeigniter2\system\libraries\Driver;
+
 /**
  * CodeIgniter Memcached Caching Class 
  *
@@ -25,7 +29,7 @@
  * @link		
  */
 
-class CI_Cache_memcached extends CI_Driver {
+class Cache_memcached extends Driver {
 
 	private $_memcached;	// Holds the memcached object
 

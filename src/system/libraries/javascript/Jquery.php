@@ -14,6 +14,10 @@
  * @filesource
  */
 
+namespace Codeigniter2\system\libraries\javascript;
+
+use Codeigniter2\system\libraries\Javascript;
+
 /**
  * Jquery Class
  *
@@ -24,7 +28,7 @@
  * @link		http://www.codeigniter.com/user_guide/libraries/javascript.html
  */
  
-class CI_Jquery extends CI_Javascript {
+class Jquery extends Javascript {
 
 	var $_javascript_folder = 'js';
 	var $jquery_code_for_load = array();

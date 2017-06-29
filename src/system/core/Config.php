@@ -13,7 +13,7 @@
  * @filesource
  */
 
-namespace SMSClubStorage\system\core;
+namespace Codeigniter2\system\core;
 
 /**
  * CodeIgniter Config Class

@@ -15,6 +15,10 @@
 
 // ------------------------------------------------------------------------
 
+namespace Codeigniter2\system\database\drivers\cubrid;
+
+use Codeigniter2\system\database\DB_utility;
+
 /**
  * CUBRID Utility Class
  *
@@ -22,7 +26,7 @@
  * @author		Esen Sagynov
  * @link		http://codeigniter.com/user_guide/database/
  */
-class CI_DB_cubrid_utility extends CI_DB_utility {
+class CI_DB_cubrid_utility extends DB_utility {
 
 	/**
 	 * List databases

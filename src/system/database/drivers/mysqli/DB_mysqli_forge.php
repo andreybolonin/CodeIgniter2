@@ -15,9 +15,9 @@
 
 // ------------------------------------------------------------------------
 
-namespace SMSClubStorage\system\database\drivers\mysqli;
+namespace Codeigniter2\system\database\drivers\mysqli;
 
-use SMSClubStorage\system\database\DB_forge;
+use Codeigniter2\system\database\DB_forge;
 
 /**
  * MySQLi Forge Class

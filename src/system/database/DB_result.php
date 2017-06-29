@@ -15,7 +15,7 @@
 
 // ------------------------------------------------------------------------
 
-namespace SMSClubStorage\system\database;
+namespace Codeigniter2\system\database;
 
 /**
  * Database Result Class

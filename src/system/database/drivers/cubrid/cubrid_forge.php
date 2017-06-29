@@ -15,6 +15,10 @@
 
 // ------------------------------------------------------------------------
 
+namespace Codeigniter2\system\database\drivers\cubrid;
+
+use Codeigniter2\system\database\DB_forge;
+
 /**
  * CUBRID Forge Class
  *
@@ -22,7 +26,7 @@
  * @author		Esen Sagynov
  * @link		http://codeigniter.com/user_guide/database/
  */
-class CI_DB_cubrid_forge extends CI_DB_forge {
+class CI_DB_cubrid_forge extends DB_forge {
 
 	/**
 	 * Create database

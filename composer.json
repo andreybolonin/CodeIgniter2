@@ -1,0 +1,11 @@
+{
+    "name": "andreybolonin/codeigniter2",
+    "description": "codeigniter2",
+    "require": {
+        "php": ">=5.5.9",
+        "ext-xml": "*"
+    },
+    "autoload": {
+        "psr-4": { "Codeigniter2\\": "src/" }
+    }
+}

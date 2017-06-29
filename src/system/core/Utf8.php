@@ -15,7 +15,7 @@
 
 // ------------------------------------------------------------------------
 
-namespace SMSClubStorage\system\core;
+namespace Codeigniter2\system\core;
 
 /**
  * Utf8 Class

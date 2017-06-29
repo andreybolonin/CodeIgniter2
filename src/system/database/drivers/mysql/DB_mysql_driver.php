@@ -15,7 +15,7 @@
 
 // ------------------------------------------------------------------------
 
-namespace SMSClubStorage\system\database\drivers\mysqli;
+namespace Codeigniter2\system\database\drivers\mysqli;
 
 /**
  * MySQL Database Adapter Class

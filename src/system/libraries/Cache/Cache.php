@@ -15,9 +15,9 @@
 
 // ------------------------------------------------------------------------
 
-namespace SMSClubStorage\system\libraries\Cache;
+namespace Codeigniter2\system\libraries\Cache;
 
-use SMSClubStorage\system\libraries\Driver_Library;
+use Codeigniter2\system\libraries\Driver_Library;
 
 /**
  * CodeIgniter Caching Class 
