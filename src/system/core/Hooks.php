@@ -67,7 +67,7 @@ class Hooks {
 	 */
 	function _initialize()
 	{
-		$CFG =& load_class('Config', 'core');
+		$CFG = new Config();//=& load_class('Config', 'core');
 
 		// If hooks are not enabled in the config file
 		// there is nothing else to do

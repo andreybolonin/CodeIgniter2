@@ -116,7 +116,8 @@ class CodeIgniter
          *  Start the timer... tick tock tick tock...
          * ------------------------------------------------------
          */
-        $BM =& load_class('Benchmark', 'core');
+//        $BM =& load_class('Benchmark', 'core');
+        $BM = new Benchmark();
         $BM->mark('total_execution_time_start');
         $BM->mark('loading_time:_base_classes_start');
 
@@ -125,7 +126,7 @@ class CodeIgniter
          *  Instantiate the hooks class
          * ------------------------------------------------------
          */
-        $EXT =& load_class('Hooks', 'core');
+        $EXT = new Hooks();//=& load_class('Hooks', 'core');
 
         /*
          * ------------------------------------------------------
@@ -139,7 +140,7 @@ class CodeIgniter
          *  Instantiate the config class
          * ------------------------------------------------------
          */
-        $CFG =& load_class('Config', 'core');
+        $CFG = new Config();//=& load_class('Config', 'core');
 
         // Do we have any manually set config items in the index.php file?
         if (isset($assign_to_config))
@@ -159,21 +160,21 @@ class CodeIgniter
          *
          */
 
-        $UNI =& load_class('Utf8', 'core');
+        $UNI = new Utf8();//=& load_class('Utf8', 'core');
 
         /*
          * ------------------------------------------------------
          *  Instantiate the URI class
          * ------------------------------------------------------
          */
-        $URI =& load_class('URI', 'core');
+        $URI = new URI();//=& load_class('URI', 'core');
 
         /*
          * ------------------------------------------------------
          *  Instantiate the routing class and set the routing
          * ------------------------------------------------------
          */
-        $RTR =& load_class('Router', 'core');
+        $RTR = new Router();//=& load_class('Router', 'core');
         $RTR->_set_routing();
 
         // Set any routing overrides that may exist in the main index file
@@ -187,7 +188,7 @@ class CodeIgniter
          *  Instantiate the output class
          * ------------------------------------------------------
          */
-        $OUT =& load_class('Output', 'core');
+        $OUT = new Output();//=& load_class('Output', 'core');
 
         /*
          * ------------------------------------------------------
@@ -207,21 +208,21 @@ class CodeIgniter
          * Load the security class for xss and csrf support
          * -----------------------------------------------------
          */
-        $SEC =& load_class('Security', 'core');
+        $SEC = new Security();//=& load_class('Security', 'core');
 
         /*
          * ------------------------------------------------------
          *  Load the Input class and sanitize globals
          * ------------------------------------------------------
          */
-        $IN	=& load_class('Input', 'core');
+        $IN	= new Input();//=& load_class('Input', 'core');
 
         /*
          * ------------------------------------------------------
          *  Load the Language class
          * ------------------------------------------------------
          */
-        $LANG =& load_class('Lang', 'core');
+        $LANG = new Lang();//=& load_class('Lang', 'core');
 
         /*
          * ------------------------------------------------------
