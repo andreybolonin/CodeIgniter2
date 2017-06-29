@@ -1,5 +1,6 @@
 {
     "name": "andreybolonin/codeigniter2",
+    "license": "MIT",
     "description": "codeigniter2",
     "require": {
         "php": ">=5.5.9",
